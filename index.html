@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TokoKeren! - Beranda</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- ==== HEADER ==== -->
+    <header>
+      <h1>TokoKeren!</h1>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+      <label for="nav-toggle" class="nav-toggle-label">&#9776;</label>
+      <nav>
+        <ul>
+          <li><a href="#hero">Beranda</a></li>
+          <li><a href="#featured-products">Produk</a></li>
+          <li><a href="contact.html">Kontak</a></li>
+          <li><button class="btn open-login nav-login-btn">Masuk</button></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Popup login -->
+    <div class="login-popup" id="loginPopup">
+      <div class="login-box">
+        <span class="close-btn" id="closeLogin">&times;</span>
+        <h2>Masuk ke TokoKeren!</h2>
+        <form>
+          <label for="username">Email atau Nama Pengguna</label>
+          <input type="text" id="username" required />
+
+          <label for="password">Kata Sandi</label>
+          <input type="password" id="password" required />
+
+          <button type="submit" class="btn">Masuk</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- ==== HERO SECTION ==== -->
+    <section class="hero" id="hero">
+      <div class="hero-content">
+        <h2>Belanja Nyaman, Hidup Senang</h2>
+        <p>Temukan produk terbaik pilihan kami hanya di TokoKeren!</p>
+        <a href="#featured-products" class="cta-btn">Lihat Produk</a>
+      </div>
+    </section>
+
+    <main>
+      <!-- ==== PRODUK UNGGULAN ==== -->
+      <section class="featured-products" id="featured-products">
+        <h2>Produk Unggulan</h2>
+        <div class="product-list">
+          <div class="product-card">
+            <img src="images/product1.jpg" alt="Sepatu Lari Biru ProSpeed" />
+            <h3>Sepatu Lari Biru ProSpeed</h3>
+            <p class="price">Rp100.000</p>
+            <p>
+              Sepatu lari ringan dan nyaman untuk harian dan lari jarak jauh.
+            </p>
+            <a href="products/product1.html" class="btn">Lihat Detail</a>
+          </div>
+          <div class="product-card">
+            <img src="images/product2.jpg" alt="Gundam RX-78-2 Action Figure" />
+            <h3>Gundam RX-78-2 Action Figure</h3>
+            <p class="price">Rp120.000</p>
+            <p>Figur robot detail tinggi dari seri Gundam untuk koleksi.</p>
+            <a href="products/product2.html" class="btn">Lihat Detail</a>
+          </div>
+          <div class="product-card">
+            <img
+              src="images/product3.jpg"
+              alt="Parfum Giorgio Armani Acqua di Giò"
+            />
+            <h3>Parfum Giorgio Armani Acqua di Giò</h3>
+            <p class="price">Rp90.000</p>
+            <p>Parfum pria segar dan maskulin untuk setiap suasana.</p>
+            <a href="products/product3.html" class="btn">Lihat Detail</a>
+          </div>
+          <div class="product-card">
+            <img src="images/product4.jpg" alt="Lipstik Matte Elegan 3-in-1" />
+            <h3>Lipstik Matte Elegan 3-in-1</h3>
+            <p class="price">Rp150.000</p>
+            <p>Set lipstik matte dengan tiga warna bold dan tahan lama.</p>
+            <a href="products/product4.html" class="btn">Lihat Detail</a>
+          </div>
+          <div class="product-card">
+            <img src="images/product5.jpg" alt="LEGO City Truk Pemadam" />
+            <h3>LEGO City Truk Pemadam</h3>
+            <p class="price">Rp110.000</p>
+            <p>Truk pemadam menyenangkan dari LEGO City untuk anak kreatif.</p>
+            <a href="products/product5.html" class="btn">Lihat Detail</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==== KEUNGGULAN ==== -->
+      <section class="advantages">
+        <h2>Kenapa Pilih TokoKeren?</h2>
+        <div class="advantage-list">
+          <div class="advantage-item">
+            <h3>Produk Berkualitas</h3>
+            <p>Kami hanya menyediakan produk terbaik dari merek terpercaya.</p>
+          </div>
+          <div class="advantage-item">
+            <h3>Harga Terjangkau</h3>
+            <p>Nikmati harga bersaing dengan penawaran menarik setiap hari.</p>
+          </div>
+          <div class="advantage-item">
+            <h3>Pengiriman Cepat</h3>
+            <p>Pesanan dikirim cepat dan aman ke seluruh penjuru negeri.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==== TESTIMONI ==== -->
+      <section class="testimonials">
+        <h2>Apa Kata Mereka?</h2>
+        <div class="testimonial-list">
+          <div class="testimonial-item">
+            <p>
+              "Produk bagus, sesuai dengan deskripsi. Pengiriman juga cepat!"
+            </p>
+            <span>– Rina, Jakarta</span>
+          </div>
+          <div class="testimonial-item">
+            <p>"Pelayanan memuaskan. Akan order lagi nanti."</p>
+            <span>– Andi, Bandung</span>
+          </div>
+          <div class="testimonial-item">
+            <p>
+              "Saya suka tampilan dan kualitas barangnya. Highly recommended."
+            </p>
+            <span>– Tika, Surabaya</span>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ==== FOOTER ==== -->
+    <footer>
+      <p>TokoKeren! &copy; 2025</p>
+      <p>Email: kontak@tokokeren.com</p>
+      <p>Telepon: 0812-3456-7890</p>
+      <p>Alamat: Jl. Citra Niaga No. 88, Jakarta</p>
+    </footer>
+
+    <script>
+      const loginPopup = document.getElementById("loginPopup");
+      const openLogin = document.querySelector(".open-login");
+      const closeLogin = document.getElementById("closeLogin");
+
+      openLogin.addEventListener("click", () => {
+        loginPopup.classList.add("active");
+      });
+
+      closeLogin.addEventListener("click", () => {
+        loginPopup.classList.remove("active");
+      });
+
+      window.addEventListener("click", (e) => {
+        if (e.target === loginPopup) {
+          loginPopup.classList.remove("active");
+        }
+      });
+    </script>
+  </body>
+</html>

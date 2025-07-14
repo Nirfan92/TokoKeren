@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kontak - TokoKeren!</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- ==== HEADER ==== -->
+    <header>
+      <h1>TokoKeren!</h1>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+      <label for="nav-toggle" class="nav-toggle-label">&#9776;</label>
+      <nav>
+        <ul>
+          <li><a href="index.html">Beranda</a></li>
+          <li><a href="index.html#featured-products">Produk</a></li>
+          <li><a href="contact.html">Kontak</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- ==== KONTAK FORM ==== -->
+    <main class="contact-form">
+      <h2>Hubungi Kami</h2>
+      <p>
+        Silakan isi formulir di bawah ini untuk mengirimkan pertanyaan atau
+        pesan.
+      </p>
+      <form>
+        <label for="name">Nama:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Pesan:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit" class="btn">Kirim</button>
+      </form>
+    </main>
+
+    <!-- ==== FOOTER ==== -->
+    <footer>
+      <p>TokoKeren! &copy; 2025</p>
+      <p>Email: kontak@tokokeren.com</p>
+      <p>Telepon: 0812-3456-7890</p>
+      <p>Alamat: Jl. Citra Niaga No. 88, Jakarta</p>
+    </footer>
+  </body>
+</html>
